@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Publicações e projetos · L. M. Fernandes-Oliveira</title>
+<meta name="description" content="Publicações e projetos de L. M. Fernandes-Oliveira em estatística, classificação, análise multivariada e ciência de dados.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="container topo">
+  <a class="nome" href="index.html">L. M. Fernandes-Oliveira</a>
+  <nav>
+    <a href="index.html#sobre">Sobre</a>
+    <a href="index.html#habilidades">Habilidades</a>
+    <a href="projetos.html" aria-current="page">Publicações e projetos</a>
+    <a href="index.html#formacao">Formação</a>
+    <a href="index.html#contato">Contato</a>
+  </nav>
+</header>
+
+<main class="container">
+
+  <section class="hero">
+    <h1>Publicações e projetos</h1>
+    <p class="lead">Trabalhos em estatística e ciência de dados, com um resumo e um gráfico de cada um.</p>
+  </section>
+
+  <section id="projetos">
+    <h2>Projetos</h2>
+    <p class="nota">Trabalhos das disciplinas do mestrado em Estatística na UFPE, feitos em grupo e implementados em R.</p>
+
+    <div class="grade-projetos">
+      <article class="projeto" id="spam">
+        <figure><img src="img/spam.jpg" alt="Curvas ROC dos classificadores regressão logística, LDA, QDA e KNN" loading="lazy" width="600" height="600"></figure>
+        <div>
+          <h3>Detecção de spam em e-mails</h3>
+          <p>Comparação de KNN, regressão logística, LDA e QDA na base Spambase, com 4.601 e-mails e 57 variáveis. Os modelos foram ajustados em treino e avaliados em teste independente. A regressão logística teve o melhor desempenho global: acurácia de 91,6% e AUC de 0,972.</p>
+          <p class="meta">Análise Multivariada · classificação supervisionada · curvas ROC</p>
+        </div>
+      </article>
+
+      <article class="projeto" id="regularizacao">
+        <figure><img src="img/regularizacao.jpg" alt="Painel com ajustes de Ridge, Lasso e Elastic Net a uma senoide para polinômios de graus 0, 1, 3 e 9" loading="lazy" width="500" height="600"></figure>
+        <div>
+          <h3>Regularização em regressão polinomial</h3>
+          <p>Estudo de simulação comparando Ridge, Lasso e Elastic Net em polinômios de grau elevado, com análise de sensibilidade ao ruído. Com preditores muito colineares, o Lasso e o Elastic Net superaram o Ridge, mas essa vantagem quase desaparece quando o ruído é alto.</p>
+          <p class="meta">Tópicos de Pesquisa em Ciência de Dados · simulação · seleção de variáveis</p>
+        </div>
+      </article>
+
+      <article class="projeto" id="circular">
+        <figure><img src="img/circular.jpg" alt="Diagramas de rosa das direções de tartarugas e de formigas" loading="lazy" width="835" height="545"></figure>
+        <div>
+          <h3>Estatística para dados circulares</h3>
+          <p>Direções de movimento de 76 tartarugas e de 100 formigas, analisadas com testes de uniformidade, ajuste da distribuição de von Mises, bootstrap e simulações de Monte Carlo. Uma mistura de duas von Mises e a Cauchy envolvida se ajustaram melhor que a von Mises simples.</p>
+          <p class="meta">Tópicos de Pesquisa em Ciência de Dados · von Mises · bootstrap</p>
+        </div>
+      </article>
+
+      <article class="projeto" id="pca">
+        <figure><img src="img/pca.jpg" alt="Pesos das variáveis nas duas primeiras componentes principais" loading="lazy" width="800" height="560"></figure>
+        <div>
+          <h3>Índice de bem-estar financeiro</h3>
+          <p>Análise de componentes principais aplicada a uma escala de bem-estar financeiro (National Financial Well-Being Survey). Duas componentes resumiram 56,1% da variância, e a primeira foi interpretada como um índice de estabilidade financeira.</p>
+          <p class="meta">Análise Multivariada · componentes principais · escalas</p>
+        </div>
+      </article>
+
+      <article class="projeto" id="classificacao">
+        <figure><img src="img/classificacao.jpg" alt="Projeção t-SNE da base Iris colorida por espécie" loading="lazy" width="694" height="600"></figure>
+        <div>
+          <h3>Métodos de classificação: estudo comparativo</h3>
+          <p>LDA, QDA, regressão logística, KNN e RDA comparados na base Iris e em simulações com diferentes coeficientes. Na Iris, LDA, logística e RDA tiveram a maior acurácia, mas o teste de McNemar não indicou diferença significativa. Nas simulações, o KNN teve as menores acurácias médias.</p>
+          <p class="meta">Tópicos de Pesquisa em Ciência de Dados · classificação · McNemar</p>
+        </div>
+      </article>
+
+      <article class="projeto" id="hotelling">
+        <figure><img src="img/hotelling.jpg" alt="Curvas de poder do teste T² de Hotelling por tamanho de amostra e deslocamento" loading="lazy" width="900" height="600"></figure>
+        <div>
+          <h3>Poder do teste T² de Hotelling</h3>
+          <p>Simulação com 1.000 réplicas para medir o poder do teste em amostras de 30 a 1.000 observações. Sem deslocamento, a taxa de rejeição fica perto dos 5% esperados. Com deslocamento, o poder cresce com o tamanho da amostra, e mais rápido quanto maior o deslocamento.</p>
+          <p class="meta">Análise Multivariada · poder de teste · simulação</p>
+        </div>
+      </article>
+
+      <article class="projeto" id="mahalanobis">
+        <figure><img src="img/mahalanobis.jpg" alt="Gráficos QQ da distância de Mahalanobis contra a qui-quadrado para vários tamanhos de amostra" loading="lazy" width="840" height="600"></figure>
+        <div>
+          <h3>Distância de Mahalanobis e a qui-quadrado</h3>
+          <p>Verificação por simulação de que, sob normalidade multivariada, a distância de Mahalanobis ao quadrado segue uma qui-quadrado. Os gráficos QQ, com amostras de 30 a 1.000 observações, mostram aderência cada vez maior à medida que a amostra cresce.</p>
+          <p class="meta">Análise Multivariada · normal multivariada · gráficos QQ</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+</main>
+
+<footer class="container rodape">© <span id="ano"></span> L. M. Fernandes-Oliveira</footer>
+<script>document.getElementById("ano").textContent = new Date().getFullYear();</script>
+</body>
+</html>

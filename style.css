@@ -13,7 +13,7 @@ a { color: var(--destaque); }
 
 .topo { display: flex; justify-content: space-between; align-items: center; padding: 24px 0; flex-wrap: wrap; gap: 12px; }
 .nome { font-weight: 700; font-size: 1.15rem; color: var(--texto); text-decoration: none; }
-nav { display: flex; gap: 18px; font-family: system-ui, sans-serif; font-size: .95rem; }
+nav { display: flex; flex-wrap: wrap; gap: 6px 18px; font-family: system-ui, sans-serif; font-size: .95rem; }
 nav a { color: var(--suave); text-decoration: none; }
 nav a:hover { color: var(--destaque); }
 
@@ -45,3 +45,29 @@ h2 { font-size: 1.35rem; color: var(--destaque); }
 .linha-tempo span { display: inline-block; min-width: 120px; color: var(--suave); font-family: system-ui, sans-serif; font-size: .9rem; }
 
 .rodape { padding: 32px 0; color: var(--suave); font-size: .9rem; font-family: system-ui, sans-serif; }
+
+nav a[aria-current="page"] { color: var(--destaque); }
+
+/* projetos em destaque (início) */
+.destaques { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-bottom: 8px; }
+.mini { display: block; background: #fff; border: 1px solid var(--borda); border-radius: 10px; overflow: hidden; text-decoration: none; color: var(--texto); transition: border-color .2s, transform .2s; }
+.mini:hover { border-color: var(--destaque); transform: translateY(-2px); }
+.mini img { width: 100%; height: 130px; object-fit: contain; background: #fff; padding: 8px; display: block; }
+.mini span { display: block; padding: 8px 12px 12px; font-size: .95rem; font-weight: 700; border-top: 1px solid var(--borda); }
+
+/* página de publicações e projetos */
+.grade-projetos { display: grid; gap: 22px; }
+.projeto { display: grid; grid-template-columns: 240px 1fr; gap: 22px; align-items: start; background: #fff; border: 1px solid var(--borda); border-radius: 12px; padding: 18px; scroll-margin-top: 16px; }
+.projeto figure { margin: 0; }
+.projeto img { width: 100%; height: 200px; object-fit: contain; display: block; }
+.projeto h3 { margin: 0 0 6px; font-size: 1.15rem; }
+.projeto p { margin: 0 0 6px; color: #444; }
+.projeto .meta { font-family: system-ui, sans-serif; font-size: .85rem; color: var(--suave); }
+.projeto:target { border-color: var(--destaque); box-shadow: 0 0 0 3px rgba(15, 118, 110, .12); }
+
+@media (max-width: 640px) {
+  nav { gap: 6px 14px; font-size: .9rem; }
+  .destaques { grid-template-columns: 1fr; }
+  .projeto { grid-template-columns: 1fr; }
+  .projeto img { height: 220px; }
+}
