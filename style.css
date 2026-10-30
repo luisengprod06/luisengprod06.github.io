@@ -63,6 +63,9 @@ nav a[aria-current="page"] { color: var(--destaque); }
 .projeto h3 { margin: 0 0 6px; font-size: 1.15rem; }
 .projeto p { margin: 0 0 6px; color: #444; }
 .projeto .meta { font-family: system-ui, sans-serif; font-size: .85rem; color: var(--suave); }
+.grafico-pub { width: 100%; height: auto; display: block; }
+.grafico-pub .barra:hover path { opacity: .8; }
+.projeto .autores { font-size: .95rem; color: #333; }
 .projeto:target { border-color: var(--destaque); box-shadow: 0 0 0 3px rgba(15, 118, 110, .12); }
 
 @media (max-width: 640px) {
