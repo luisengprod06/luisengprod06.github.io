@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Luís Oliveira · Estatística e Engenharia de Produção</title>
+<meta name="description" content="Luís Oliveira: mestrando em Estatística na UFPE e engenheiro de produção. Projetos, pesquisa e contato.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="container topo">
+  <a class="nome" href="#">Luís Oliveira</a>
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#habilidades">Habilidades</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#formacao">Formação</a>
+    <a href="#contato">Contato</a>
+  </nav>
+</header>
+
+<main class="container">
+
+  <section class="hero">
+    <h1>Olá, eu sou Luís Oliveira.</h1>
+    <p class="lead">Mestrando em Estatística na UFPE e engenheiro de produção. Trabalho com modelagem estatística, análise de dados e métodos computacionais.</p>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre</h2>
+    <p>Vim da Engenharia de Produção, onde conheci a estatística pelo lado prático: acompanhar processos e estudos em indústrias dos setores plástico e metalúrgico. Hoje, no mestrado, aprofundo a parte teórica e computacional, e gosto de ligar as duas coisas: usar bons métodos para responder a perguntas reais.</p>
+    <p>Além da estatística, trabalho com métodos de busca, análise combinatória e visão computacional, com foco em algoritmos de baixo custo computacional para processamento de imagens e controle de qualidade.</p>
+  </section>
+
+  <section id="habilidades">
+    <h2>Habilidades</h2>
+    <ul class="habilidades">
+      <li><b>Métodos de busca:</b> busca exaustiva em espaços de matrizes, estratégias de dividir para conquistar e seleção de soluções por métricas de desempenho.</li>
+      <li><b>Análise combinatória:</b> construção e redução de espaços de busca e análise de complexidade aritmética de algoritmos.</li>
+      <li><b>Visão computacional e processamento de imagens:</b> transformadas (DCT e KLT), compressão de imagens tipo JPEG e avaliação de qualidade por MSE, PSNR, UQI e SSIM.</li>
+      <li><b>Algoritmos de baixo custo:</b> aproximações e escalamento de matrizes para sistemas embarcados e Internet das Coisas.</li>
+      <li><b>Estatística:</b> modelos de regressão, classificação supervisionada, análise multivariada, simulação de Monte Carlo e bootstrap.</li>
+    </ul>
+    <p class="tags"><span>R</span><span>Python</span><span>Julia</span><span>MATLAB</span><span>GNU Octave</span><span>C</span><span>SAS</span><span>Minitab</span><span>Excel</span></p>
+  </section>
+
+  <section id="projetos">
+    <h2>Projetos</h2>
+    <p class="nota">Trabalhos das disciplinas do mestrado na UFPE, feitos em grupo e implementados em R.</p>
+    <div class="lista">
+      <article>
+        <h3>Detecção de spam em e-mails</h3>
+        <p>Comparação de KNN, regressão logística, LDA e QDA na base Spambase (4.601 e-mails e 57 variáveis), com avaliação em conjunto de teste independente. A regressão logística teve o melhor desempenho global: acurácia de 91,6% e AUC de 0,972.</p>
+        <p class="meta">Análise Multivariada · classificação supervisionada · curvas ROC</p>
+      </article>
+      <article>
+        <h3>Regularização em regressão polinomial</h3>
+        <p>Estudo de simulação comparando Ridge, Lasso e Elastic Net em polinômios de grau elevado, com análise de sensibilidade ao ruído. Com preditores muito colineares, o Lasso e o Elastic Net superaram o Ridge, mas essa vantagem quase desaparece quando o ruído é alto.</p>
+        <p class="meta">Tópicos de Pesquisa em Ciência de Dados · simulação · seleção de variáveis</p>
+      </article>
+      <article>
+        <h3>Estatística para dados circulares</h3>
+        <p>Análise das direções de movimento de tartarugas e de formigas com testes de uniformidade, ajuste da distribuição de von Mises, bootstrap, simulações de Monte Carlo e comparação de modelos. Uma mistura de duas von Mises e a Cauchy envolvida se ajustaram melhor que a von Mises simples.</p>
+        <p class="meta">Tópicos de Pesquisa em Ciência de Dados · von Mises · bootstrap</p>
+      </article>
+      <article>
+        <h3>Índice de bem-estar financeiro (PCA)</h3>
+        <p>Análise de componentes principais aplicada a uma escala de bem-estar financeiro (National Financial Well-Being Survey). Duas componentes resumiram 56,1% da variância, e a primeira foi interpretada como um índice de estabilidade financeira.</p>
+        <p class="meta">Análise Multivariada · componentes principais · escalas</p>
+      </article>
+    </div>
+    <p class="outros"><b>Outros trabalhos:</b> comparação de LDA, QDA, regressão logística, KNN e RDA na base Iris e em simulações; estudo do poder do teste T² de Hotelling; verificação por simulação da distribuição da distância de Mahalanobis.</p>
+  </section>
+
+  <section id="formacao">
+    <h2>Formação</h2>
+    <ul class="linha-tempo">
+      <li><span>2026 – 2027</span> Mestrado em Estatística (em andamento) · UFPE, Recife</li>
+      <li><span>2025</span> Engenharia de Produção · UFPE, Campus do Agreste</li>
+    </ul>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>E-mail: <a href="mailto:luis.miguelo@ufpe.br">luis.miguelo@ufpe.br</a> · LinkedIn: <a href="https://www.linkedin.com/in/luisengprod/">luisengprod</a> · GitHub: <a href="https://github.com/luisengprod06">luisengprod06</a></p>
+  </section>
+
+</main>
+
+<footer class="container rodape">© <span id="ano"></span> Luís Oliveira</footer>
+<script>document.getElementById("ano").textContent = new Date().getFullYear();</script>
+</body>
+</html>
