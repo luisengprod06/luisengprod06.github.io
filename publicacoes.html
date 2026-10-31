@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Publicações · L. M. Fernandes-Oliveira</title>
+<meta name="description" content="Publicações de L. M. Fernandes-Oliveira em aproximações de transformadas e métodos computacionais.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="container topo">
+  <a class="nome" href="index.html">L. M. Fernandes-Oliveira</a>
+  <nav>
+    <a href="index.html#sobre">Sobre</a>
+    <a href="index.html#habilidades">Habilidades</a>
+    <a href="publicacoes.html" aria-current="page">Publicações</a>
+    <a href="projetos.html">Projetos</a>
+    <a href="index.html#contato">Contato</a>
+  </nav>
+</header>
+
+<main class="container">
+
+  <section class="hero">
+    <h1>Publicações</h1>
+    <p class="lead">Trabalhos publicados e apresentados em eventos científicos. A lista completa está no <a href="http://lattes.cnpq.br/7895235412082590">Currículo Lattes</a>.</p>
+  </section>
+
+  <section id="publicacoes">
+    <h2>Resumos em anais</h2>
+    <div class="cards">
+      <article class="card" id="cnmac2024">
+        <h3>Uma aproximação escalada para DCT de comprimento 16</h3>
+        <p class="ref"><b>L. M. F. de Oliveira</b> e R. J. Cintra. <i>Proceeding Series of the Brazilian Society of Computational and Applied Mathematics</i>, v. 11, n. 1, 2025. Apresentado no XLIII CNMAC, Porto de Galinhas (PE), 2024.</p>
+        <p>Aproximações de baixa complexidade da transformada discreta do cosseno, com entradas em {0, ±1, ±2}, para dispositivos de Internet das Coisas. Uma busca por similaridade angular entre linhas selecionou 8.072.064 matrizes candidatas. A matriz ótima para N = 8 teve o menor erro médio quadrático entre as aproximações comparadas e foi escalada para N = 16.</p>
+        <div class="resultado"><svg class="grafico" viewBox="0 0 360 166" width="360" height="166" role="img" aria-labelledby="g-cnmac-t" font-family="system-ui, sans-serif"><title id="g-cnmac-t">MSE das aproximações, N = 8. T8 (proposta): 0,0013; OCBSML1: 0,0046; LO: 0,0061; OCBSML2: 0,0127</title><text x="0" y="15" font-size="13" font-weight="700" fill="#222">MSE das aproximações, N = 8</text><text x="0" y="32" font-size="11.5" fill="#666">menor é melhor</text><line x1="128" y1="44" x2="128" y2="166" stroke="#d4d4d4"/><g class="marca" tabindex="0" data-tip="T8 (proposta): 0,0013"><rect class="alvo" x="0" y="45" width="360" height="30" fill="transparent"/><text x="118" y="64.0" text-anchor="end" font-size="12" font-weight="700" fill="#222">T8 (proposta)</text><path d="M128 50 h13.8 a4 4 0 0 1 4 4 v12 a4 4 0 0 1 -4 4 h-13.8 z" fill="#0f766e"/><text x="153.8" y="64.0" font-size="12" font-weight="700" fill="#222">0,0013</text></g><g class="marca" tabindex="0" data-tip="OCBSML1: 0,0046"><rect class="alvo" x="0" y="75" width="360" height="30" fill="transparent"/><text x="118" y="94.0" text-anchor="end" font-size="12" font-weight="400" fill="#555">OCBSML1</text><path d="M128 80 h59.0 a4 4 0 0 1 4 4 v12 a4 4 0 0 1 -4 4 h-59.0 z" fill="#b6bcc4"/><text x="199.0" y="94.0" font-size="12" font-weight="400" fill="#555">0,0046</text></g><g class="marca" tabindex="0" data-tip="LO: 0,0061"><rect class="alvo" x="0" y="105" width="360" height="30" fill="transparent"/><text x="118" y="124.0" text-anchor="end" font-size="12" font-weight="400" fill="#555">LO</text><path d="M128 110 h79.6 a4 4 0 0 1 4 4 v12 a4 4 0 0 1 -4 4 h-79.6 z" fill="#b6bcc4"/><text x="219.6" y="124.0" font-size="12" font-weight="400" fill="#555">0,0061</text></g><g class="marca" tabindex="0" data-tip="OCBSML2: 0,0127"><rect class="alvo" x="0" y="135" width="360" height="30" fill="transparent"/><text x="118" y="154.0" text-anchor="end" font-size="12" font-weight="400" fill="#555">OCBSML2</text><path d="M128 140 h170.0 a4 4 0 0 1 4 4 v12 a4 4 0 0 1 -4 4 h-170.0 z" fill="#b6bcc4"/><text x="310.0" y="154.0" font-size="12" font-weight="400" fill="#555">0,0127</text></g></svg></div>
+        <p class="meta">Resumo em anais · CNMAC 2024 · <a class="seta" href="https://proceedings.sbmac.org.br/sbmac/article/view/4846" target="_blank" rel="noopener">Ler o resumo</a></p>
+      </article>
+    </div>
+  </section>
+
+</main>
+
+<footer class="container rodape">© <span id="ano"></span> L. M. Fernandes-Oliveira</footer>
+<script src="graficos.js"></script>
+</body>
+</html>
