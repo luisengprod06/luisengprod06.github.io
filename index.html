@@ -4,18 +4,18 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>L. M. Fernandes-Oliveira · Estatística e Engenharia de Produção</title>
-<meta name="description" content="L. M. Fernandes-Oliveira: mestrando em Estatística na UFPE e engenheiro de produção. Projetos, pesquisa e contato.">
+<meta name="description" content="L. M. Fernandes-Oliveira: mestrando em Estatística na UFPE e engenheiro de produção. Publicações, projetos e contato.">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header class="container topo">
-  <a class="nome" href="#">L. M. Fernandes-Oliveira</a>
+  <a class="nome" href="index.html">L. M. Fernandes-Oliveira</a>
   <nav>
     <a href="#sobre">Sobre</a>
     <a href="#habilidades">Habilidades</a>
-    <a href="projetos.html">Publicações e projetos</a>
-    <a href="#formacao">Formação</a>
+    <a href="#publicacoes">Publicações</a>
+    <a href="projetos.html">Projetos</a>
     <a href="#contato">Contato</a>
   </nav>
 </header>
@@ -24,7 +24,7 @@
 
   <section class="hero">
     <h1>L. M. Fernandes-Oliveira</h1>
-    <p class="lead">Mestrando em Estatística na UFPE e engenheiro de produção. Trabalho com modelagem estatística, análise de dados e métodos computacionais.</p>
+    <p class="lead">Mestrando em Estatística na UFPE e engenheiro de produção. Trabalho com análise de dados e de processos, modelagem estatística e métodos computacionais, e venho me aprofundando em aprendizado de máquina.</p>
   </section>
 
   <section id="sobre">
@@ -40,20 +40,31 @@
       <li><b>Modelagem matemática e definição de problemas:</b> transformar uma necessidade real em um problema bem definido, com variáveis, restrições e objetivo claros, antes de escolher o método de solução.</li>
       <li><b>Visão computacional e processamento de imagens:</b> representação, compressão e análise de imagens, escolhendo a técnica conforme o problema e medindo a qualidade do resultado com métricas objetivas.</li>
       <li><b>Algoritmos rápidos e processos de baixo custo:</b> reduzir o custo de algoritmos e de processos, identificando onde se gasta tempo, energia ou recursos e simplificando sem perder qualidade.</li>
-      <li><b>Estatística:</b> modelos de regressão, classificação supervisionada, análise multivariada, simulação de Monte Carlo e bootstrap.</li>
+      <li><b>Estatística:</b> modelos de regressão, análise multivariada, simulação de Monte Carlo e bootstrap.</li>
+      <li><b>Aprendizado de máquina (em formação):</b> classificação supervisionada, validação em conjunto de teste e comparação de modelos.</li>
     </ul>
     <p class="selos"><span class="selo" style="background:#276DC3;color:#fff"><svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="#fff" d="M12 2.746c-6.627 0-12 3.599-12 8.037 0 3.897 4.144 7.144 9.64 7.88V16.26c-2.924-.915-4.925-2.755-4.925-4.877 0-3.035 4.084-5.494 9.12-5.494 5.038 0 8.757 1.683 8.757 5.494 0 1.976-.999 3.379-2.662 4.272.09.066.174.128.258.216.169.149.25.363.372.544 2.128-1.45 3.44-3.437 3.44-5.631 0-4.44-5.373-8.038-12-8.038zm-2.111 4.99v13.516l4.093-.002-.002-5.291h1.1c.225 0 .321.066.549.25.272.22.715.982.715.982l2.164 4.063 4.627-.002-2.864-4.826s-.086-.193-.265-.383a2.22 2.22 0 00-.582-.416c-.422-.214-1.149-.434-1.149-.434s3.578-.264 3.578-3.826c0-3.562-3.744-3.63-3.744-3.63zm4.127 2.93l2.478.002s1.149-.062 1.149 1.127c0 1.165-1.149 1.17-1.149 1.17h-2.478zm1.754 6.119c-.494.049-1.012.079-1.54.088v1.807a16.622 16.622 0 002.37-.473l-.471-.891s-.108-.183-.248-.394c-.039-.054-.08-.098-.111-.137z"/></svg>R</span><span class="selo" style="background:#3776AB;color:#fff"><svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="#fff" d="M14.25.18l.9.2.73.26.59.3.45.32.34.34.25.34.16.33.1.3.04.26.02.2-.01.13V8.5l-.05.63-.13.55-.21.46-.26.38-.3.31-.33.25-.35.19-.35.14-.33.1-.3.07-.26.04-.21.02H8.77l-.69.05-.59.14-.5.22-.41.27-.33.32-.27.35-.2.36-.15.37-.1.35-.07.32-.04.27-.02.21v3.06H3.17l-.21-.03-.28-.07-.32-.12-.35-.18-.36-.26-.36-.36-.35-.46-.32-.59-.28-.73-.21-.88-.14-1.05-.05-1.23.06-1.22.16-1.04.24-.87.32-.71.36-.57.4-.44.42-.33.42-.24.4-.16.36-.1.32-.05.24-.01h.16l.06.01h8.16v-.83H6.18l-.01-2.75-.02-.37.05-.34.11-.31.17-.28.25-.26.31-.23.38-.2.44-.18.51-.15.58-.12.64-.1.71-.06.77-.04.84-.02 1.27.05zm-6.3 1.98l-.23.33-.08.41.08.41.23.34.33.22.41.09.41-.09.33-.22.23-.34.08-.41-.08-.41-.23-.33-.33-.22-.41-.09-.41.09zm13.09 3.95l.28.06.32.12.35.18.36.27.36.35.35.47.32.59.28.73.21.88.14 1.04.05 1.23-.06 1.23-.16 1.04-.24.86-.32.71-.36.57-.4.45-.42.33-.42.24-.4.16-.36.09-.32.05-.24.02-.16-.01h-8.22v.82h5.84l.01 2.76.02.36-.05.34-.11.31-.17.29-.25.25-.31.24-.38.2-.44.17-.51.15-.58.13-.64.09-.71.07-.77.04-.84.01-1.27-.04-1.07-.14-.9-.2-.73-.25-.59-.3-.45-.33-.34-.34-.25-.34-.16-.33-.1-.3-.04-.25-.02-.2.01-.13v-5.34l.05-.64.13-.54.21-.46.26-.38.3-.32.33-.24.35-.2.35-.14.33-.1.3-.06.26-.04.21-.02.13-.01h5.84l.69-.05.59-.14.5-.21.41-.28.33-.32.27-.35.2-.36.15-.36.1-.35.07-.32.04-.28.02-.21V6.07h2.09l.14.01zm-6.47 14.25l-.23.33-.08.41.08.41.23.33.33.23.41.08.41-.08.33-.23.23-.33.08-.41-.08-.41-.23-.33-.33-.23-.41-.08-.41.08z"/></svg>Python</span><span class="selo" style="background:#9558B2;color:#fff"><svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="#fff" d="M11.138 17.569a5.569 5.569 0 1 1-11.138 0 5.569 5.569 0 1 1 11.138 0zm6.431-11.138a5.569 5.569 0 1 1-11.138 0 5.569 5.569 0 1 1 11.138 0zM24 17.569a5.569 5.569 0 1 1-11.138 0 5.569 5.569 0 1 1 11.138 0z"/></svg>Julia</span><span class="selo" style="background:#0076A8;color:#fff"><svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="#fff" d="M4.323 16.25C3.13 15.354 1.64 14.31 0 13.12l5.814-2.237 2.386 1.79c-1.79 2.086-2.982 2.831-3.877 3.577zm15.952-6.261c-.447-1.193-.745-2.385-1.193-3.578-.447-1.343-.894-2.535-1.64-3.579-.299-.447-.895-1.49-1.64-1.49-.15 0-.299.148-.448.148-.447.15-1.043 1.043-1.193 1.64-.447.745-1.342 1.938-1.938 2.683-.149.299-.447.597-.596.746-.447.298-.894.745-1.491 1.043-.15 0-.298.149-.447.149-.447 0-.745.298-1.043.447-.447.447-.894 1.043-1.342 1.49 0 .15-.15.299-.298.448l2.236 1.64c1.64-1.938 3.578-3.876 4.92-7.603 0 0-.448 4.026-4.026 8.349-2.236 2.534-4.025 3.876-4.324 4.174 0 0 .597-.149 1.194.15 1.193.446 1.789 2.087 2.236 3.279.298.894.745 1.64 1.043 2.534 1.193-.298 1.938-.745 2.683-1.491.745-.746 1.491-1.64 2.236-2.385 1.342-1.64 2.982-3.728 5.069-2.684.298.15.745.447.894.596.447.298.745.596 1.193 1.043.745.597 1.043 1.044 1.64 1.343-1.491-2.982-2.534-5.964-3.727-9.094z"/></svg>MATLAB</span><span class="selo" style="background:#056A8E;color:#fff">GNU Octave</span><span class="selo" style="background:#A8B9CC;color:#1f2937"><svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="#1f2937" d="M16.5921 9.1962s-.354-3.298-3.627-3.39c-3.2741-.09-4.9552 2.474-4.9552 6.14 0 3.6651 1.858 6.5972 5.0451 6.5972 3.184 0 3.5381-3.665 3.5381-3.665l6.1041.365s.36 3.31-2.196 5.836c-2.552 2.5241-5.6901 2.9371-7.8762 2.9201-2.19-.017-5.2261.034-8.1602-2.97-2.938-3.0101-3.436-5.9302-3.436-8.8002 0-2.8701.556-6.6702 4.047-9.5502C7.444.72 9.849 0 12.254 0c10.0422 0 10.7172 9.2602 10.7172 9.2602z"/></svg>C</span><span class="selo" style="background:#1F4E9E;color:#fff">SAS</span><span class="selo" style="background:#4b5563;color:#fff">Minitab</span><span class="selo" style="background:#217346;color:#fff"><svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="#fff" d="M23 1.5q.41 0 .7.3.3.29.3.7v19q0 .41-.3.7-.29.3-.7.3H7q-.41 0-.7-.3-.3-.29-.3-.7V18H1q-.41 0-.7-.3-.3-.29-.3-.7V7q0-.41.3-.7Q.58 6 1 6h5V2.5q0-.41.3-.7.29-.3.7-.3zM6 13.28l1.42 2.66h2.14l-2.38-3.87 2.34-3.8H7.46l-1.3 2.4-.05.08-.04.09-.64-1.28-.66-1.29H2.59l2.27 3.82-2.48 3.85h2.16zM14.25 21v-3H7.5v3zm0-4.5v-3.75H12v3.75zm0-5.25V7.5H12v3.75zm0-5.25V3H7.5v3zm8.25 15v-3h-6.75v3zm0-4.5v-3.75h-6.75v3.75zm0-5.25V7.5h-6.75v3.75zm0-5.25V3h-6.75v3Z"/></svg>Excel</span></p>
   </section>
 
+  <section id="publicacoes">
+    <h2>Publicações</h2>
+      <article class="card" id="cnmac2024">
+        <h3>Uma aproximação escalada para DCT de comprimento 16</h3>
+        <p class="ref"><b>L. M. F. de Oliveira</b> e R. J. Cintra. <i>Proceeding Series of the Brazilian Society of Computational and Applied Mathematics</i>, v. 11, n. 1, 2025. Apresentado no XLIII CNMAC, Porto de Galinhas (PE), 2024.</p>
+        <p>Aproximações de baixa complexidade da transformada discreta do cosseno, com entradas em {0, ±1, ±2}, para dispositivos de Internet das Coisas. Uma busca por similaridade angular entre linhas selecionou 8.072.064 matrizes candidatas. A matriz ótima para N = 8 teve o menor erro médio quadrático entre as aproximações comparadas e foi escalada para N = 16.</p>
+        <div class="resultado"><svg class="grafico" viewBox="0 0 360 166" width="360" height="166" role="img" aria-labelledby="g-cnmac-t" font-family="system-ui, sans-serif"><title id="g-cnmac-t">MSE das aproximações, N = 8. T8 (proposta): 0,0013; OCBSML1: 0,0046; LO: 0,0061; OCBSML2: 0,0127</title><text x="0" y="15" font-size="13" font-weight="700" fill="#222">MSE das aproximações, N = 8</text><text x="0" y="32" font-size="11.5" fill="#666">menor é melhor</text><line x1="128" y1="44" x2="128" y2="166" stroke="#d4d4d4"/><g class="marca" tabindex="0" data-tip="T8 (proposta): 0,0013"><rect class="alvo" x="0" y="45" width="360" height="30" fill="transparent"/><text x="118" y="64.0" text-anchor="end" font-size="12" font-weight="700" fill="#222">T8 (proposta)</text><path d="M128 50 h13.8 a4 4 0 0 1 4 4 v12 a4 4 0 0 1 -4 4 h-13.8 z" fill="#0f766e"/><text x="153.8" y="64.0" font-size="12" font-weight="700" fill="#222">0,0013</text></g><g class="marca" tabindex="0" data-tip="OCBSML1: 0,0046"><rect class="alvo" x="0" y="75" width="360" height="30" fill="transparent"/><text x="118" y="94.0" text-anchor="end" font-size="12" font-weight="400" fill="#555">OCBSML1</text><path d="M128 80 h59.0 a4 4 0 0 1 4 4 v12 a4 4 0 0 1 -4 4 h-59.0 z" fill="#b6bcc4"/><text x="199.0" y="94.0" font-size="12" font-weight="400" fill="#555">0,0046</text></g><g class="marca" tabindex="0" data-tip="LO: 0,0061"><rect class="alvo" x="0" y="105" width="360" height="30" fill="transparent"/><text x="118" y="124.0" text-anchor="end" font-size="12" font-weight="400" fill="#555">LO</text><path d="M128 110 h79.6 a4 4 0 0 1 4 4 v12 a4 4 0 0 1 -4 4 h-79.6 z" fill="#b6bcc4"/><text x="219.6" y="124.0" font-size="12" font-weight="400" fill="#555">0,0061</text></g><g class="marca" tabindex="0" data-tip="OCBSML2: 0,0127"><rect class="alvo" x="0" y="135" width="360" height="30" fill="transparent"/><text x="118" y="154.0" text-anchor="end" font-size="12" font-weight="400" fill="#555">OCBSML2</text><path d="M128 140 h170.0 a4 4 0 0 1 4 4 v12 a4 4 0 0 1 -4 4 h-170.0 z" fill="#b6bcc4"/><text x="310.0" y="154.0" font-size="12" font-weight="400" fill="#555">0,0127</text></g></svg></div>
+        <p class="meta">Resumo em anais · CNMAC 2024 · <a class="seta" href="https://proceedings.sbmac.org.br/sbmac/article/view/4846" target="_blank" rel="noopener">Ler o resumo</a></p>
+      </article>
+  </section>
+
   <section id="projetos">
     <h2>Projetos em destaque</h2>
-    <div class="destaques">
-      <a class="mini" href="projetos.html#spam"><img src="img/spam.jpg" alt="" loading="lazy" width="600" height="600"><span>Detecção de spam em e-mails</span></a>
-      <a class="mini" href="projetos.html#regularizacao"><img src="img/regularizacao.jpg" alt="" loading="lazy" width="500" height="600"><span>Regularização em regressão polinomial</span></a>
-      <a class="mini" href="projetos.html#circular"><img src="img/circular.jpg" alt="" loading="lazy" width="835" height="545"><span>Estatística para dados circulares</span></a>
-    </div>
-    <p class="pub-recente"><b>Publicação:</b> <a href="projetos.html#cnmac2024">Uma aproximação escalada para DCT de comprimento 16</a> · CNMAC 2024</p>
-    <p><a href="projetos.html">Ver todas as publicações e projetos →</a></p>
+    <ul class="destaques">
+      <li><a href="projetos.html#spam">Detecção de spam em e-mails</a><span>classificação · AUC de 0,972</span></li>
+      <li><a href="projetos.html#regularizacao">Regularização em regressão polinomial</a><span>Ridge, Lasso e Elastic Net</span></li>
+      <li><a href="projetos.html#circular">Estatística para dados circulares</a><span>von Mises e bootstrap</span></li>
+    </ul>
+    <p><a class="seta" href="projetos.html">Ver todos os projetos</a></p>
   </section>
 
   <section id="formacao">
@@ -66,12 +77,16 @@
 
   <section id="contato">
     <h2>Contato</h2>
-    <p>E-mail: <a href="mailto:luis.miguelo@ufpe.br">luis.miguelo@ufpe.br</a> · LinkedIn: <a href="https://www.linkedin.com/in/luisengprod/">luisengprod</a> · GitHub: <a href="https://github.com/luisengprod06">luisengprod06</a></p>
+    <ul class="contato">
+      <li><span>E-mail</span><a href="mailto:luis.miguelo@ufpe.br">luis.miguelo@ufpe.br</a></li>
+      <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/luisengprod/">luisengprod</a></li>
+      <li><span>GitHub</span><a href="https://github.com/luisengprod06">luisengprod06</a></li>
+    </ul>
   </section>
 
 </main>
 
 <footer class="container rodape">© <span id="ano"></span> L. M. Fernandes-Oliveira</footer>
-<script>document.getElementById("ano").textContent = new Date().getFullYear();</script>
+<script src="graficos.js"></script>
 </body>
 </html>
