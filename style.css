@@ -74,3 +74,13 @@ nav a[aria-current="page"] { color: var(--destaque); }
   .projeto { grid-template-columns: 1fr; }
   .projeto img { height: 220px; }
 }
+
+/* selos de linguagens */
+.selos { display: flex; flex-wrap: wrap; gap: 8px; }
+.selo { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 4px; font-family: system-ui, sans-serif; font-size: .8rem; font-weight: 700; letter-spacing: .02em; text-transform: uppercase; }
+
+/* gráficos de resultado */
+.resultado { margin: 12px 0 10px; padding: 12px 14px; background: #fafaf8; border: 1px solid var(--borda); border-radius: 8px; max-width: 420px; }
+.grafico { width: 100%; height: auto; display: block; }
+.grafico .marca:hover path, .grafico .marca:hover rect[fill]:not([fill="transparent"]) { opacity: .8; }
+.grafico circle:hover { r: 6; }
