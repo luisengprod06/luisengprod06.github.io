@@ -25,11 +25,17 @@ a.seta:hover { text-decoration: underline; }
 nav { display: flex; flex-wrap: wrap; gap: 6px 20px; font-family: var(--ui); font-size: .95rem; }
 nav a { color: var(--suave); border: 0; }
 nav a:hover, nav a[aria-current="page"] { color: var(--destaque); }
+nav .lingua { display: inline-flex; align-items: center; gap: 5px; padding: 1px 9px; border: 1px solid var(--borda); border-radius: 999px; font-size: .82rem; font-weight: 600; }
+nav .lingua:hover { border-color: var(--destaque); }
 
 /* blocos */
 .hero { padding: 40px 0 28px; }
 h1 { font-size: clamp(1.9rem, 5vw, 2.6rem); line-height: 1.2; margin: 0 0 14px; }
 .lead { font-size: 1.15rem; color: #444; margin: 0; }
+.acoes { margin: 22px 0 0; }
+a.botao { display: inline-flex; align-items: center; gap: 8px; padding: 9px 18px; border: 0; border-radius: 8px; background: var(--destaque); color: #fff; font-family: var(--ui); font-size: .92rem; font-weight: 600; transition: background .2s; }
+a.botao:hover { background: var(--destaque-escuro); color: #fff; }
+.traducao { font-weight: 400; color: var(--suave); }
 section { padding: 28px 0; border-top: 1px solid var(--borda); }
 .hero + section, section:first-child { border-top: 0; }
 h2 { display: flex; align-items: center; gap: 10px; font-size: 1.35rem; color: var(--destaque); margin: 0 0 18px; }
