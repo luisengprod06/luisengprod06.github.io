@@ -38,7 +38,8 @@ p { margin: 0 0 12px; }
 
 /* habilidades */
 .habilidades { padding-left: 1.1rem; margin: 0 0 18px; }
-.habilidades li { margin-bottom: 8px; color: #333; }
+.habilidades li { margin-bottom: 12px; color: #333; }
+.pacotes { display: block; margin-top: 2px; font-family: var(--ui); font-size: .82rem; color: var(--suave); }
 .selos { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; }
 .selo { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 4px; font-family: var(--ui); font-size: .78rem; font-weight: 700; letter-spacing: .03em; text-transform: uppercase; line-height: 1.4; }
 
